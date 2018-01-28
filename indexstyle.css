@@ -1,0 +1,19 @@
+<style type="text/css">
+
+/* for maximum screen width of 980px */
+@media screen and (max-width: 980px) {
+    body {
+      padding: 3em;
+    }
+  
+  /* for all screens between 768px and 980px */
+  @media all and (min-width: 768px) and (max-width: 980px) {
+    body {
+      padding: 2em;
+    }
+    
+  /* For a landscape view on a device that is using a landscape view */
+  @media screen and (device-width:640px) and (orientation: landscape) {
+    body {
+      padding: 1em;
+    }
